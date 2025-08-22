@@ -14,4 +14,4 @@ Aqui você vai encontrar exercícios, pequenos sistemas e aplicações que desen
 - Java
 
 ---
-✨ Criado por Matheus Vinicius
+✨ Criado por Matheus Vinicius.
