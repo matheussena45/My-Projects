@@ -1,16 +1,8 @@
-# Meus Projetos 🚀
+# 👋 Hey there! I'm Matheus  
 
-Este repositório contém meus projetos de estudo e prática em programação.  
-Aqui você vai encontrar exercícios, pequenos sistemas e aplicações que desenvolvi durante minha jornada em **Análise e Desenvolvimento de Sistemas**.
+🎓 I'm currently studying **Analysis and Systems Development** at the **Federal Institute of Rio Grande do Norte (IFRN)**  
+💻 Passionate about **technology, coding, and innovation**  
+🎮 Gamer at heart — always up for discovering new worlds and challenges  
+🚀 Always learning and building cool stuff  
 
-## Estrutura
-- 📂 Projeto 1 - Descrição breve
-- 📂 Projeto 2 - Descrição breve
-- 📂 Projeto 3 - Descrição breve
 
-## Tecnologias
-- HTML & CSS
-- JavaScript
-- Java
----
-✨ Criado por Matheus Vinicius.
