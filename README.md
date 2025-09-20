@@ -6,19 +6,19 @@
 - 🚀 Always learning and building cool stuff  
 
 
-## My Projects
+# My Projects
 
-## Calculator
+# Calculator
 
 A **simple calculator** built with **HTML, CSS, and JavaScript**.  
 
-# Features
+## Features
 
 - Basic operations: **+ - × ÷**  
 - Responsive and clickable interface  
 - Clear and reset functionality  
 
-# Technologies
+## Technologies
 
 - **HTML** – structure  
 - **CSS** – styling  
