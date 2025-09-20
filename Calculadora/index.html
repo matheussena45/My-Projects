@@ -3,131 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-
-        .fundopag{
-            background-color: rgb(239, 245, 245);
-            height: 100vh;
-            color: orange;
-            font-family: arial;
-            text-align: center;
-        }
-
-        .calculadora{
-            position: absolute;
-            background-color: black;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 18px;
-        }
-        
-        #num, #oper{
-            background-color: rgb(255, 255, 255);
-            height: 50px;
-            width: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            border: none;
-            margin: 2px;
-        }
-
-        #num:hover, #oper:hover{
-            background-color: rgb(139, 139, 139);
-        }
-
-        #result{
-            width: 205px;
-            height: 25px;
-            margin: 5px;
-            background-color: white;
-            color: black;
-            text-align: right;
-            font-size: 20px;
-            padding: 5px;
-        }
-    </style>
-
-    <script>
-        function calcNum(num) 
-        {
-            if (typeof gresult == 'undefined') 
-            {
-                document.calcform.result.value = '';
-            }
-            document.calcform.result.value = document.calcform.result.value + num;
-            gresult = 1;
-        }
-
-
-        function calcLimpar() 
-        {
-            document.calcform.result.value = '';
-            delete gvalor;
-            delete goper;
-            delete gresult;
-        }
-
-        function calcVoltar()
-        {
-            var back = document.getElementById('result').value
-            document.getElementById('result').innerHTML = back.substring(0, back.length -1)
-        }
-
-
-        function calcOper(oper, valor1, valor2) {
-        if (oper == "somar") {
-            var valor = parseFloat(valor1) + parseFloat(valor2);
-        } else {
-            if (oper == "subtrair") {
-                var valor = valor1 - valor2;
-            } else {
-                if (oper == "multiplicar") {
-                    var valor = valor1 * valor2;
-                } else {
-                    var valor = valor1 / valor2;
-                }
-            }
-        }
-
-        return(valor);
-        }
-
-        
-        function calcParse(oper) {
-        var valor = document.calcform.result.value;
-        delete gresult;
-
-        if (typeof goper != 'undefined' && oper == 'resultado') {
-            gvalor = calcOper(goper, gvalor, valor);
-            document.calcform.result.value = gvalor;
-            delete oper;
-            delete gvalor;
-            return(0);
-        }
-
-        if (typeof gvalor != 'undefined') {
-            gvalor = calcOper(goper, gvalor, valor);
-            goper = oper;
-            document.calcform.result.value = gvalor;
-        } else {
-            gvalor = valor;
-            goper = oper;
-        }
-
-        }
-    
-    </script>
 </head>
 <body>
     <div class="fundopag">
-        <h1>Matheus Vinicius</h1>
+        <h1>Matheus Sena</h1>
         
         <div class="calculadora">
             <h1>Calculadora</h1>
@@ -165,6 +47,6 @@
         </div>
     </div>
 
-    
+    <script src="calculator.js"></script>
 </body>
 </html>

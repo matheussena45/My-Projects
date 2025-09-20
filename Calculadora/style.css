@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundopag > h1 {
+    padding: 50px;
+}
+
+.fundopag {
+    background-color: rgb(102, 105, 105);
+    height: 100vh;
+    color: orange;
+    font-family: arial;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 18px;
+    border-radius: 5px;
+}
+
+#num,
+#oper {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+}
+
+#num:hover,
+#oper:hover {
+    background-color: rgb(139, 139, 139);
+}
+
+#result {
+    width: 205px;
+    height: 25px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    font-size: 20px;
+    padding: 5px;
+}
