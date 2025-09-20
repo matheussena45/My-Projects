@@ -6,7 +6,23 @@
 - 🚀 Always learning and building cool stuff  
 
 
-## Meus Projetos
+## My Projects
+
+# Calculator
+
+A **simple calculator** built with **HTML, CSS, and JavaScript**.  
+
+## Features
+
+- Basic operations: **+ - × ÷**  
+- Responsive and clickable interface  
+- Clear and reset functionality  
+
+## Technologies
+
+- **HTML** – structure  
+- **CSS** – styling  
+- **JavaScript** – logic
 
 - [Calculadora](https://matheussena45.github.io/My-Projects/Calculadora/index.html) 🔢
 
