@@ -12,7 +12,9 @@ escolher a paleta de cores e as fontes utilizadas
 }
 
 :root {
-
+    --cor1: #8EC7FC;
+    --cor2: #99AFD4;
+    --cor3: #2F88EC;
     --fonte-padrao: Helvetica, sans-serif;
     --fonte-destaque: "Smythe", system-ui, sans-serif;
 }
@@ -69,4 +71,25 @@ main {
 footer {
     text-align: center;
     background-color: aquamarine;
+}
+
+.descrição-da-loja {
+    background-color: var(--cor1);
+}
+
+main p {
+    padding: 10px;
+    line-height: 1.6;
+}
+
+div img {
+    display: inline-block;
+    justify-content: left;
+    height: 250px;
+    width: 250px;
+}
+
+.caixa1 {
+    display: inline-block;
+    flex: 1;
 }
