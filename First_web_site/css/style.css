@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+/*
+escolher a paleta de cores e as fontes utilizadas
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #8EC7FC;
+    --cor2: #99AFD4;
+    --cor3: #2F88EC;
+    --fonte-padrao: Helvetica, sans-serif;
+    --fonte-destaque: "Smythe", system-ui, sans-serif;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: white;
+}
+
+header {
+    background-image: url(../images/shoes02-WEB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 450px;
+}
+
+@media (max-width: 650px) {
+    header {
+        background-image: url(../images/shoes02-p.jpg);
+    }
+}
+
+header > h1 {
+    font-family: var(--fonte-destaque);
+    padding: 155px 0px 10px 0px;
+    font-size: 3em;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    padding-bottom: 35px;
+}
+
+nav a {
+    background-color: grey;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: gainsboro;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.descrição-da-loja {
+    background-color: var(--cor1);
+}
+
+main p {
+    padding: 10px;
+    line-height: 1.6;
+}
+
+div img {
+    display: inline-block;
+    justify-content: left;
+    height: 250px;
+    width: 250px;
+}
+
+.caixa1 {
+    display: inline-block;
+    flex: 1;
+}
