@@ -24,5 +24,32 @@ A **simple calculator** built with **HTML, CSS, and JavaScript**.
 - **CSS** – styling  
 - **JavaScript** – logic
 
- **[Open Calculator](https://matheussena45.github.io/My-Projects/Calculadora/index.html) 🔢**
+ **[Open Calculator](https://matheussena45.github.io/My-Projects/Calculator/index.html) 🔢**
+
+ ## Social Links Profile
+
+A clean and responsive **social links profile card** built using only **HTML** and **CSS**.
+
+### Features
+
+- Fully responsive layout  
+- Rounded profile image  
+- Highlighted name and location  
+- Simple and intuitive interface  
+- Buttons that redirect to each social platform  
+
+### Technologies
+
+- **HTML** – structure and semantic organization  
+- **CSS** – styling, layout, spacing and responsiveness  
+
+### My Social Platforms
+
+- GitHub  
+- Facebook  
+- LinkedIn  
+- Twitter  
+- Instagram  
+
+[**Open Social Links Profile 🔗**](https://matheussena45.github.io/My-Projects/SOCIAL_LINKS_PROFILE/profile_links.html)
 
