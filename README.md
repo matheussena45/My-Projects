@@ -51,5 +51,5 @@ A clean and responsive **social links profile card** built using only **HTML** a
 - Twitter  
 - Instagram  
 
-[**Open Social Links Profile 🔗**](https://matheussena45.github.io/My-Projects/SOCIAL_LINKS_PROFILE/profile_links.html)
+[**Open Social Links Profile 🔗**](https://matheussena45.github.io/My-Projects/Social_links_profile/profile_links.html)
 
