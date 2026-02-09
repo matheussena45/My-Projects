@@ -73,18 +73,18 @@ A collection of UI/UX prototypes created in Figma, focusing on usability, layout
 ### Gym App
 Prototype of a fitness application focused on workout tracking, user engagement, and a clean, intuitive interface.
 
-🔗 [Gym App](https://www.figma.com/design/zHmbx5XFNq0akc4m5YMJtD/ProjetoIHC?node-id=0-1&p=f&t=5G0fTXPDMgrwMwh4-0)
+🔗 [**Gym App🔗**](https://www.figma.com/design/zHmbx5XFNq0akc4m5YMJtD/ProjetoIHC?node-id=0-1&p=f&t=5G0fTXPDMgrwMwh4-0)
 
 ---
 
 ### Marketplace App
 Prototype of a marketplace application designed to connect sellers and buyers, emphasizing product discovery, usability, and smooth navigation.
 
-🔗 [Marketplace App](https://www.figma.com/design/2qMRrYmXZfayuospJnhR1x/Untitled?t=xyGdJjiWGtx4K1Ls-1)
+🔗 [**Marketplace App🔗**](https://www.figma.com/design/2qMRrYmXZfayuospJnhR1x/Untitled?t=xyGdJjiWGtx4K1Ls-1)
 
 ---
 
 ### Agriculture Support App
 Prototype developed as part of a project in partnership with **SEBRAE** and **IFRN**, focused on helping farmers with access to information, organization, and digital tools to improve their daily activities.
 
-🔗 [Agriculture Support App](https://www.figma.com/design/TISqtdRlo44gF8fR3ZnF11/Untitled?node-id=0-1&p=f&t=xyGdJjiWGtx4K1Ls-0)
+🔗 [**Agriculture Support App🔗**](https://www.figma.com/design/TISqtdRlo44gF8fR3ZnF11/Untitled?node-id=0-1&p=f&t=xyGdJjiWGtx4K1Ls-0)
