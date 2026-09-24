@@ -3,50 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Calculator</title>
-
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Calculadora Moderna</title>
 </head>
 <body>
-    <div class="fundopag">
-        <h1>Matheus Sena</h1>
-        
-        <div class="calculadora">
-            <h1>Calculator</h1>
-            <form name="calcform" method="post" action="">
-                
-             
-            <input type="text" name="result" id="result" />
-            <table>
-                <tr>
-                    <td><input type="button" name="num7" id="num" value="7" onclick="calcNum(7)"/></td>
-                    <td><input type="button" name="num8" id="num" value="8" onclick="calcNum(8)"/></td>
-                    <td><input type="button" name="num9" id="num" value="9" onclick="calcNum(9)"/></td>
-                    <td><input type="button" name="somar" id="oper" value="+" onclick="calcParse('somar')"/></td>
-                </tr>
-                <tr>
-                    <td><input type="button" name="num4" id="num" value="4" onclick="calcNum(4)"/></td>
-                    <td><input type="button" name="num5" id="num" value="5" onclick="calcNum(5)"/></td>
-                    <td><input type="button" name="num6" id="num" value="6" onclick="calcNum(6)"/></td>
-                    <td><input type="button" name="subtrair" id="oper" value="-" onclick="calcParse('subtrair')"/></td>
-                </tr>
-                <tr>
-                    <td><input type="button" name="num1" id="num" value="1" onclick="calcNum(1)"/></td>
-                    <td><input type="button" name="num2" id="num" value="2" onclick="calcNum(2)"/></td>
-                    <td><input type="button" name="num3" id="num" value="3" onclick="calcNum(3)"/></td>
-                    <td><input type="button" name="multiplicar" id="oper" value="*" onclick="calcParse('multiplicar')"/></td>
-                </tr>
-                <tr>
-                    <td><input type="button" name="num0" id="num" value="0" onclick="calcNum(0)"/></td>
-                    <td><input type="button" name="limpar" id="num" value="C" onclick="calcLimpar()"/></td>
-                    <td><input type="button" name="dividir" id="oper" value="/" onclick="calcParse('dividir')"/></td>
-                    <td><input type="button" name="igual" id="num" value="=" onclick="calcParse('resultado')"/></td>
-                    
-                </tr>
-            </table>
-        </div>
+    <div class="calculator-container">
+        <header>
+            <h1 class="author-title">Matheus Sena</h1>
+        </header>
+
+        <main class="calculator">
+            <!-- Display da calculadora: histórico e valor atual -->
+            <div class="calculator-display">
+                <div class="previous-operand" id="previous-operand"></div>
+                <div class="current-operand" id="current-operand">0</div>
+            </div>
+
+            <!-- Grade de teclas (CSS Grid) -->
+            <div class="calculator-keys" id="calculator-keys">
+                <button type="button" class="btn btn-action" data-action="clear">AC</button>
+                <button type="button" class="btn btn-action" data-action="delete">DEL</button>
+                <button type="button" class="btn btn-action" data-action="percent">%</button>
+                <button type="button" class="btn btn-operator" data-operator="/">÷</button>
+
+                <button type="button" class="btn btn-num" data-num="7">7</button>
+                <button type="button" class="btn btn-num" data-num="8">8</button>
+                <button type="button" class="btn btn-num" data-num="9">9</button>
+                <button type="button" class="btn btn-operator" data-operator="*">×</button>
+
+                <button type="button" class="btn btn-num" data-num="4">4</button>
+                <button type="button" class="btn btn-num" data-num="5">5</button>
+                <button type="button" class="btn btn-num" data-num="6">6</button>
+                <button type="button" class="btn btn-operator" data-operator="-">−</button>
+
+                <button type="button" class="btn btn-num" data-num="1">1</button>
+                <button type="button" class="btn btn-num" data-num="2">2</button>
+                <button type="button" class="btn btn-num" data-num="3">3</button>
+                <button type="button" class="btn btn-operator" data-operator="+">+</button>
+
+                <button type="button" class="btn btn-num btn-zero" data-num="0">0</button>
+                <button type="button" class="btn btn-num" data-num=".">,</button>
+                <button type="button" class="btn btn-equals" data-action="calculate">=</button>
+            </div>
+        </main>
     </div>
 
-    <script src="calculator.js"></script>
+    <script src="./JavaScript/calculator.js"></script>
 </body>
 </html>
